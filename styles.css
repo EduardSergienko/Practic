@@ -20,7 +20,7 @@
 
 body {
   color: var(--main-text-color);
-  width: 1145px;
+  width: 1445px;
   margin-left: auto;
   margin-right: auto;
   font-family: Abel;
@@ -38,29 +38,56 @@ ul {
   margin-right: auto;
 }
 
-.button {
-  background-color: black;
-  color: white;
-}
-
 .head-nav {
   display: flex;
   height: 88px;
-}
-.nav {
-  display: block;
-  display: flex;
-
+  width: 940.1px;
   border-bottom: 1px solid #828282;
   transform: matrix(1, 0, 0, 1, 0, 0);
   align-items: center;
 }
+
 .site-nav {
+  width: 940px;
+  justify-content: space-between;
   display: flex;
 }
-.site-nav .item:not(:last-child) {
-  margin-right: 155.65px;
-}
+
 .site-nav .link {
   color: var(--complementary-color);
 }
+
+/* hero */
+
+.position {
+  display: flex;
+  align-items: center;
+  width: 927px;
+}
+.position .name {
+  font-weight: normal;
+  font-size: 47.3392px;
+  line-height: 60px;
+  margin-top: 39.69px;
+  margin-bottom: 30.64px;
+  margin-right: 297.23px;
+}
+.position .prof {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+}
+.position .img {
+  display: block;
+  width: 930px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.button {
+  background-color: black;
+  color: white;
+}
+/* :not(:last-child) {
+  margin-right: 165.65px; */
