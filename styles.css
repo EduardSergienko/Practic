@@ -91,3 +91,26 @@ ul {
 }
 /* :not(:last-child) {
   margin-right: 165.65px; */
+
+/* about */
+
+.about {
+  background-color: #f6f6f6;
+  text-align: center;
+}
+.about .title {
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 43px;
+  padding-top: 120.25px;
+  padding-bottom: 20px;
+}
+.about .description {
+  font-family: Abel;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  padding-right: 40px;
+  padding-bottom: 105px;
+}
