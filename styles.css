@@ -48,9 +48,9 @@ ul {
 }
 
 .site-nav {
+  display: flex;
   width: 940px;
   justify-content: space-between;
-  display: flex;
 }
 
 .site-nav .link {
@@ -83,8 +83,11 @@ ul {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  padding-bottom: 105px;
 }
-
+.bgrimg {
+  padding-bottom: 105px;
+}
 .button {
   background-color: black;
   color: white;
@@ -113,4 +116,82 @@ ul {
   line-height: 23px;
   padding-right: 40px;
   padding-bottom: 105px;
+}
+/* ==============SKILS============= */
+
+.skils {
+  padding-top: 90px;
+  padding-bottom: 110px;
+}
+.skils .title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 43px;
+  text-align: center;
+  margin-bottom: 69px;
+}
+.skils .descript {
+  text-align: center;
+  margin-bottom: 83px;
+}
+.programs {
+  display: flex;
+  justify-content: center;
+}
+.programs .item {
+  display: inline-block;
+  width: 166.46px;
+
+  align-items: center;
+}
+.po {
+  text-align: center;
+  margin-bottom: 41px;
+}
+.programs .item::before {
+  content: "";
+  display: block;
+  margin-bottom: 24px;
+
+  height: 89px;
+  /* background-image: url(./images/icons/1_ps.svg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.programs .item:nth-child(1)::before {
+  background-image: url(./images/icons/1_ps.svg);
+}
+.programs .item:nth-child(2)::before {
+  background-image: url(./images/icons/2_ai.svg);
+}
+.programs .item:nth-child(3)::before {
+  background-image: url(./images/icons/3_ae.svg);
+}
+.programs .item:nth-child(4)::before {
+  background-image: url(./images/icons/4_figma.svg);
+}
+
+.programs .item::after {
+  content: "";
+  display: block;
+
+  height: 26px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.programs .item:nth-child(1)::after {
+  background-image: url(./images/icons/4star.svg);
+}
+.programs .item:nth-child(2)::after {
+  background-image: url(./images/icons/3star.svg);
+}
+.programs .item:nth-child(3)::after {
+  background-image: url(./images/icons/4star.svg);
+}
+.programs .item:nth-child(4)::after {
+  background-image: url(./images/icons/4star.svg);
 }
