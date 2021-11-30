@@ -137,7 +137,7 @@ ul {
 }
 .programs {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .programs .item {
   display: inline-block;
@@ -149,6 +149,7 @@ ul {
   text-align: center;
   margin-bottom: 41px;
 }
+
 .programs .item::before {
   content: "";
   display: block;
@@ -194,4 +195,5 @@ ul {
 }
 .programs .item:nth-child(4)::after {
   background-image: url(./images/icons/4star.svg);
+  margin-top: 59px;
 }
