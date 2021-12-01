@@ -89,10 +89,7 @@ ul {
 .bgrimg {
   padding-bottom: 105px;
 }
-.button {
-  background-color: black;
-  color: white;
-}
+
 /* :not(:last-child) {
   margin-right: 165.65px; */
 
@@ -236,3 +233,69 @@ ul {
 }
 
 /* ====================contacts============= */
+footer {
+  padding-top: 115px;
+  padding-bottom: 123px;
+}
+.contact-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 43px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.welcome {
+  font-style: normal;
+  font-weight: normal;
+  width: 245px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+.button {
+  display: block;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  padding: 13px 29px;
+  border-style: none;
+  border-radius: 30px;
+  margin-bottom: 85px;
+}
+.button:hover {
+  box-shadow: 8px 13px 27px -8px rgba(14, 14, 15, 0.733);
+}
+.socicon-list {
+  display: flex;
+  width: 412px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.soclink {
+  display: inline-flex;
+  background-color: var(--main-background-color);
+  padding: 10px 10px;
+}
+.soclink:hover {
+  background-color: var(--activity-text-color);
+  border-radius: 40px;
+}
+.follow {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: var(--complementary-color);
+  width: 240px;
+  margin: 0 auto;
+}
+.soclink:hover .icon {
+  fill: var(--second-complementary-color);
+}
